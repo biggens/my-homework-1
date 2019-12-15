@@ -1,0 +1,44 @@
+h1 {
+    text-align: right;
+    color: darkorange;
+    font-family: Verdana;
+}
+
+p:first-letter {
+    font-family: Georgia;
+    font-size: 30px;
+    color: red;
+}
+
+p em {
+    color: #fff;
+    background-color: green;
+}
+
+p + h2 {
+    color: darkorange;
+}
+
+ul + h2 {
+    color: blue;
+}
+
+ul span {
+    font-weight: bold;
+    color: black;
+}
+
+ol li {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
