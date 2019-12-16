@@ -14,14 +14,4 @@ a[href$=".by"] {
     color: #f70;
 }
 
-.put {
-    target: _blank;
-    color: #f70;
-}
 
-
-
-a[href^="http://"]  {
-    background: url(/example/image/blank.png) 100% 5px no-repeat;
-    padding-right: 18px;
-}
