@@ -37,7 +37,7 @@ ul ol {
     color: red;
 }
 
-ul + h2 + ul > li:first-child ol{
+ul + h2 + ul > li:first-child ol {
     color: green;
 }
 
@@ -50,7 +50,7 @@ table, tr, td {
     font-weight: bold;
 }
 
-table tr:nth-child(3)  {
+table tr:nth-child(3) {
     background: green;
     color: white;
 }
@@ -62,7 +62,7 @@ table tr:nth-child(3) td:first-child {
     font-weight: normal;
 }
 
-table tr:nth-child(4)  {
+table tr:nth-child(4) {
     background: green;
     color: white;
 }
@@ -74,7 +74,7 @@ table tr:nth-child(4) td:first-child {
     font-weight: normal;
 }
 
-table tr:nth-child(5)  {
+table tr:nth-child(5) {
     background: green;
     color: white;
 }
