@@ -23,14 +23,70 @@ ul + h2 {
     color: blue;
 }
 
+ul ol:nth-child(2) {
+    background: green;
+}
+
 ul span {
     font-weight: bold;
     color: black;
 }
 
-ol li {
+span + ol:first-child {
+    background: gray;
+}
+
+ol li:first-child {
     color: red;
 }
+
+
+table, tr, td {
+    border: 1px solid gray;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table tr:nth-child(3)  {
+    background: green;
+    color: white;
+}
+
+table tr:nth-child(3) td:first-child {
+    background: white;
+    color: darkorange;
+    text-align: left;
+    font-weight: normal;
+}
+
+table tr:nth-child(4)  {
+    background: green;
+    color: white;
+}
+
+table tr:nth-child(4) td:first-child {
+    background: white;
+    color: darkorange;
+    text-align: left;
+    font-weight: normal;
+}
+
+table tr:nth-child(5)  {
+    background: green;
+    color: white;
+}
+
+table tr:nth-child(5) td:first-child {
+    background: white;
+    color: darkorange;
+    text-align: left;
+    font-weight: normal;
+}
+
+
+
+
 
 
 
