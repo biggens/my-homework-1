@@ -15,6 +15,8 @@ p em {
     background-color: green;
 }
 
+/*Списки овощей и фруктов*/
+
 p + h2 {
     color: darkorange;
 }
@@ -23,23 +25,23 @@ ul + h2 {
     color: blue;
 }
 
-ul ol:nth-child(2) {
-    background: green;
-}
-
 ul span {
     font-weight: bold;
-    color: black;
 }
 
-span + ol:first-child {
-    background: gray;
+div ul > li:first-child ol {
+    color: gray;
 }
 
-ol li:first-child {
+ul ol {
     color: red;
 }
 
+ul + h2 + ul > li:first-child ol{
+    color: green;
+}
+
+/* Здесь на ходится таблица*/
 
 table, tr, td {
     border: 1px solid gray;
