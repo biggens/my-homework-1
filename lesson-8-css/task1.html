@@ -6,7 +6,7 @@
 </head>
 <body>
   <h2>Sign up to the app</h2>
-  <!--<form>
+  <form action="#">
     <fieldset>
       <legend>Personal information:</legend>
       First name:<br/>
@@ -16,30 +16,32 @@
       Self-presentation:<br/>
       <textarea name="text" rows="10" cols="30">The cat was playing in the garden.</textarea>
     </fieldset>
-  </form>-->
-
-  <!--<form>
+    <br/>
     <fieldset>
       <legend>Car info (the brand)</legend>
       <select name="cars">
+        <option>Volvo</option>
+        <option>Saab</option>
+        <option>Fiat</option>
         <option>Audi</option>
-        <option>Mercedes</option>
-        <option>BMW</option>
-        <option>Opel</option>
-        <option>Ford</option>
-        <option>Lada</option>
       </select>
     </fieldset>
-  </form>-->
-
-  <form action="">
+    <br/>
     <fieldset>
       <legend>Choose one:</legend>
       <input type="radio" name="pol" value="Male" checked>Male<br/>
       <input type="radio" name="pol" value="Female">Female<br/>
       <input type="radio" name="pol" value="Other">Other
     </fieldset>
+    <br/>
+    <fieldset>
+      <legend>Choose many:</legend>
+      <input type="checkbox" name="motor" value="bile">I have a bike<br/>
+      <input type="checkbox" name="motor" value="car">I have a car<br/>
+    </fieldset>
+    <br/>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
   </form>
-
 </body>
 </html>
