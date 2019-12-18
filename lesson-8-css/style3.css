@@ -1,11 +1,25 @@
 table {
     border-spacing: 0px;
     border-collapse: collapse;
+    width: 1836px;
+    height: 320px;
+    margin: 150px 0px 0px 0px;
+    font-size: 33px;
+    font-width: bold;
+    font-family: Time Roman Normal;
 }
 
 table td {
-    padding: 5px 10px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
-    border: 2px solid;
-    border-color: gray;
+    border-bottom: 2px solid;
+    border-color: #D3D3D2;
+}
+
+table tr:nth-child(2n+2) {
+    background-color: #DDEBF8;
+}
+
+table td:nth-child(2n+3) {
+    background-color: #F2F2DD;
 }
