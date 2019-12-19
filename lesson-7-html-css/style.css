@@ -1,0 +1,102 @@
+h1 {
+    text-align: right;
+    color: darkorange;
+    font-family: Verdana;
+}
+
+p:first-letter {
+    font-family: Georgia;
+    font-size: 30px;
+    color: red;
+}
+
+p em {
+    color: #fff;
+    background-color: green;
+}
+
+/*Списки овощей и фруктов*/
+
+p + h2 {
+    color: darkorange;
+}
+
+ul + h2 {
+    color: blue;
+}
+
+ul span {
+    font-weight: bold;
+}
+
+div ul > li:first-child ol {
+    color: gray;
+}
+
+ul ol {
+    color: red;
+}
+
+ul + h2 + ul > li:first-child ol {
+    color: green;
+}
+
+/* Здесь на ходится таблица*/
+
+table, tr, td {
+    border: 1px solid gray;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table tr:nth-child(3) {
+    background: green;
+    color: white;
+}
+
+table tr:nth-child(3) td:first-child {
+    background: white;
+    color: darkorange;
+    text-align: left;
+    font-weight: normal;
+}
+
+table tr:nth-child(4) {
+    background: green;
+    color: white;
+}
+
+table tr:nth-child(4) td:first-child {
+    background: white;
+    color: darkorange;
+    text-align: left;
+    font-weight: normal;
+}
+
+table tr:nth-child(5) {
+    background: green;
+    color: white;
+}
+
+table tr:nth-child(5) td:first-child {
+    background: white;
+    color: darkorange;
+    text-align: left;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

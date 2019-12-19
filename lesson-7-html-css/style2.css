@@ -1,0 +1,17 @@
+div {
+    font-family: Arial;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: 200px;
+
+}
+
+a[href$=".com"] {
+    color: #666;
+}
+
+a[href$=".by"] {
+    color: #f70;
+}
+
+
