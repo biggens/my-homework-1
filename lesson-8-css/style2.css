@@ -1,0 +1,17 @@
+.menu {
+    font-family: Oswald;
+    background: #A64DFF;
+    width: 100%;
+    padding: 15px;
+}
+
+
+li {
+    list-style-type: none;
+    display: inline;
+
+}
+
+div.menu li:last-child a {
+    color: green;
+}
