@@ -7,19 +7,34 @@ body {
     padding-top: 100px;
 }
 
-
-.menu {
+nav {
     font-family: Oswald;
     font-size: 18px;
-    letter-spacing: 0px;
+    color: white;
     background: #A64DFF;
     width: 1032px;
-    color: white;
-    margin: 25px 0 0 167px;
+    margin-left: 168px;
+
+
 }
 
-div.menu a {
+.menu {
+    /*font-family: Oswald;
+    font-size: 18px;*/
+    /*width: 1032px;*/
+    /*color: white;*/
+    /*margin-top: 10px;*/
+    /*margin: 25px 0 0 167px;*/
+    /*height: 100%;*/
+}
+
+a {
     text-decoration: none;
+    color: #fff;
+
+
+    padding: 6px 12px 6px 15px;
+    /*background: green;*/
 }
 
 a:link {
@@ -31,23 +46,48 @@ a:visited {
 }
 
 a:hover {
-    color: #EEEEEE;
+    background: #eee;
+    color: #A0A0A0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
-a:active {
+/*a:active {
     color: ;
-}
+}*/
 
 li {
     list-style-type: none;
     display: inline;
-    padding: 0 25px 0 0;
+    /*height: 100%;*/
+    /*padding-left: 15px;*/
+    /*padding: 0 25px 0 0;*/
 }
 
 ul {
-    padding: 6px 0px 6px 75px;
+    /*padding: 25px 0px 6px 75px;*/
+    /*background: #A64DFF;*/
+    padding: 6px 58px; 6px 0;
+
+    /*height: 60px;*/
 }
 
-div.menu li:last-child a {
+/*div.menu li:last-child a {
     padding-left: 280px;
+}*/
+
+
+
+
+nav li:nth-child(7) a {
+    background: #eee;
+    color: #A0A0A0;
+    padding: 6px 16px 6px 16px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+
+}
+
+nav li:last-child a {
+    background: #fc0; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 6px;
 }
