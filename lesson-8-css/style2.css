@@ -1,17 +1,53 @@
-.menu {
-    font-family: Oswald;
-    background: #A64DFF;
-    width: 100%;
-    padding: 15px;
+body {
+    margin: 0;
 }
 
+.img {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.menu {
+    font-family: Oswald;
+    font-size: 18px;
+    letter-spacing: 0px;
+    background: #A64DFF;
+    width: 1032px;
+    color: white;
+    margin: 25px 0 0 167px;
+}
+
+div.menu a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #F7FFFF;
+}
+
+a:visited {
+    color: ;
+}
+
+a:hover {
+    color: #EEEEEE;
+}
+
+a:active {
+    color: ;
+}
 
 li {
     list-style-type: none;
     display: inline;
+    padding: 0 25px 0 0;
+}
 
+ul {
+    padding: 6px 0px 6px 75px;
 }
 
 div.menu li:last-child a {
-    color: green;
+    padding-left: 280px;
 }
