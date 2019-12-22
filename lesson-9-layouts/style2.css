@@ -1,0 +1,66 @@
+#navy {
+    background-color: yellow;
+    height: 50px;
+    width: 800px;
+    padding: 0;
+    margin: 100px auto;
+}
+
+#navy ul {
+    list-style-type: none;
+    height: 50px;
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 0 66px;
+}
+
+#navy ul li {
+    float:left;
+}
+
+#navy ul li a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 4px;
+    line-height: 50px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+#navy ul li:first-child a,
+#navy ul li:nth-child(2) a {
+    background-color: darkorange;
+    padding: 10px 2px;
+    border: none;
+}
+
+#navy ul li:first-child a:before,
+#navy ul li:nth-child(2) a:before {
+    content: "\AB";
+    padding-right: 2px;
+}
+
+#navy ul li:last-child a,
+#navy ul li:nth-child(11) a {
+    background-color: darkorange;
+    padding: 10px 2px;
+    border: none;
+}
+
+#navy ul li:last-child a:after,
+#navy ul li:nth-child(11) a:after {
+    content: "\BB";
+    padding-left: 2px;
+}
+
+
+#navy ul li a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+/*li:before {
+    content: "\20aa "; !* Добавляем перед элементом списка символ в юникоде *!
+}*/
