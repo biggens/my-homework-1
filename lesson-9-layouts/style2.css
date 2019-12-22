@@ -1,5 +1,4 @@
 #navy {
-    background-color: yellow;
     height: 50px;
     width: 800px;
     padding: 0;
@@ -63,4 +62,16 @@
 
 #navy ul li:nth-child(5) a {
     border: none;
+}
+
+#navy ul li:first-child a:hover,
+#navy ul li:nth-child(2) a:hover {
+    background: none;
+    color: #b50fc9;
+}
+
+#navy ul li:last-child a:hover,
+#navy ul li:nth-child(11) a:hover {
+    background: none;
+    color: #b50fc9;
 }
