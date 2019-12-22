@@ -11,16 +11,17 @@
     height: 50px;
     background-color: #f8f8f8;
     padding: 0;
-    margin: 0 66px;
+    margin: 0 36px;
 }
 
 #navy ul li {
-    float:left;
+    float: left;
 }
 
 #navy ul li a {
     font-family: Arial, sans-serif;
     text-decoration: none;
+    font-weight: bold;
     padding: 10px 15px;
     margin: 0 4px;
     line-height: 50px;
@@ -31,36 +32,35 @@
 
 #navy ul li:first-child a,
 #navy ul li:nth-child(2) a {
-    background-color: darkorange;
     padding: 10px 2px;
+    margin: 0 12px;
     border: none;
 }
 
 #navy ul li:first-child a:before,
 #navy ul li:nth-child(2) a:before {
     content: "\AB";
-    padding-right: 2px;
+    padding-right: 3px;
 }
 
 #navy ul li:last-child a,
 #navy ul li:nth-child(11) a {
-    background-color: darkorange;
     padding: 10px 2px;
+    margin: 0 12px;
     border: none;
 }
 
 #navy ul li:last-child a:after,
 #navy ul li:nth-child(11) a:after {
     content: "\BB";
-    padding-left: 2px;
+    padding-left: 3px;
 }
-
 
 #navy ul li a:hover {
     background-color: blueviolet;
     color: white;
 }
 
-/*li:before {
-    content: "\20aa "; !* Добавляем перед элементом списка символ в юникоде *!
-}*/
+#navy ul li:nth-child(5) a {
+    border: none;
+}
