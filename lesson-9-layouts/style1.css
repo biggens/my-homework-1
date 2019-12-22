@@ -1,0 +1,48 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+[for="red"] {
+    color: red;
+}
+
+[for="green"] {
+    color: green;
+}
+
+[for="blue"] {
+    color: blue;
+}
+
+span {
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0 15px;
+}
+
+span.red {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+span.green {
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 8px;
+}
+
+span.blue {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
