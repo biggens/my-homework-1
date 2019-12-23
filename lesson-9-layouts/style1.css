@@ -37,6 +37,7 @@ label {
     display: block;
     margin-top: 5px;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 input[type="checkbox"] {
