@@ -1,48 +1,36 @@
-input[type="checkbox"] {
-    display: none;
+div{
+    display: flex;
+    flex-direction: row;
 }
 
-label {
-    font-family: Oswald, sans-serif;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 0 15px;
-}
-
-[for="red"] {
-    color: red;
-}
-
-[for="green"] {
-    color: green;
-}
-
-[for="blue"] {
-    color: blue;
-}
-
-span {
-    font-family: Oswald, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+.red{
+    margin-left: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    background: red;
+    border-radius: 8px;
     color: white;
-    padding: 0 15px;
+    font-weight: bold;
+
 }
 
-span.red {
-    background-color: red;
-    border: 2px solid red;
+.green{
+    margin-left: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    background: green;
     border-radius: 8px;
+    color: white;
+    font-weight: bold;
 }
 
-span.green {
-    background-color: green;
-    border: 2px solid green;
+.blue{
+    margin-left: 10px;
+    padding: 5px 10px ;
+    display: inline-block;
+    background: blue;
     border-radius: 8px;
+    color: white;
+    font-weight: bold;
 }
 
-span.blue {
-    background-color: blue;
-    border: 2px solid blue;
-    border-radius: 8px;
-}
