@@ -1,9 +1,9 @@
-div{
+div {
     display: flex;
     flex-direction: row;
 }
 
-.red{
+.red {
     margin-left: 10px;
     padding: 5px 10px;
     display: inline-block;
@@ -11,10 +11,9 @@ div{
     border-radius: 8px;
     color: white;
     font-weight: bold;
-
 }
 
-.green{
+.green {
     margin-left: 10px;
     padding: 5px 10px;
     display: inline-block;
@@ -24,13 +23,36 @@ div{
     font-weight: bold;
 }
 
-.blue{
+.blue {
     margin-left: 10px;
-    padding: 5px 10px ;
+    padding: 5px 10px;
     display: inline-block;
     background: blue;
     border-radius: 8px;
     color: white;
     font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label[for="red"] {
+    color: red;
+}
+
+label[for="green"] {
+    color: green;
+}
+
+label[for="blue"] {
+    color: blue;
+    margin-right: 15px;
 }
 
