@@ -56,3 +56,18 @@ label[for="blue"] {
     margin-right: 15px;
 }
 
+label {
+    margin-left: 20px;
+}
+
+#red:checked ~ .red {
+    display: none;
+}
+
+#green:checked ~ .green {
+    display: none;
+}
+
+#blue:checked ~ .blue {
+    display: none;
+}
