@@ -1,65 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .bill {
     /*border:1px solid black;*/
-    width: 296px;
-    height: 456px;
+    width: 288px;
+    /*height: 456px;*/
     border-radius: 4px;
     /*box-shadow: 20px 20px 20px rgba(0,0,0,0.5);*/
     background-color: #EE8129;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding-top: 12px;
+    margin: 100px auto;
+    padding: 25px 4px 4px 4px;
 }
 
-.bill h1 {
-    font-size: 23px;
+.bill h2 {
+    /*font-size: 23px;*/
     color: white;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .bill_window {
+    /*width: 100%;*/
     /*border: 1px solid black;*/
     background-color: white;
-    margin: 23px 4px 0 4px;
-    padding-top: 0;
-    /*height: 90%;*/
+    margin: 22px 0 0 0;
+    padding: 25px 10px 0 10px;
+    height: 300px;
 }
 
 .bill_name {
     text-transform: uppercase;
     font-size: 23px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.bill_price {
+/*.bill_price {
     font-weight: bold;
     font-size: 75px;
     text-align: center;
     margin: 0;
     padding: 0;
-}
+}*/
 
-.bill_price sup {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-}
-
-.bill_price sub {
-    font-size: 16px;
-}
 
 ul {
-    padding-inline-start: 0;
+    padding: 0;
+    margin: 0;
 }
 
 ul li {
     list-style-position: inside;
     list-style-image: url(images/arrow.png);
-    margin: 0 12px 4px 12px;
+    /*margin: 0 12px 4px 12px;*/
     text-transform: uppercase;
-    line-height: 35px;
-    padding-left: 25px;
+    /*line-height: 35px;*/
+    /*padding-left: 25px;*/
 }
 
 ul li:nth-child(odd) {
@@ -70,7 +72,7 @@ ul li:nth-child(even) {
     background-color: gray;
 }
 
-span {
+/*span {
     border: 2px solid black;
     background-color: #EE8129;
     color: white;
@@ -83,4 +85,4 @@ span {
 a {
     text-decoration: none;
     padding: 12px auto;
-}
+}*/
