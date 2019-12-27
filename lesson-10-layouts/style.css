@@ -106,4 +106,5 @@ body {
     display: block;
     margin: 0;
     padding: 11px 0;
+    cursor: pointer;
 }
