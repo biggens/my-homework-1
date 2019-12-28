@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bill {
+    width: 288px;
+    background-color: #EE8129;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 100px auto;
+    padding: 25px 4px 4px 4px;
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.bill h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bill_window {
+    background-color: white;
+    margin: 24px 0 0 0;
+    padding: 17px 14px 30px 15px;
+}
+
+.bill_name {
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #3F4042;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bill_price {
+    font-weight: bold;
+    font-size: 70px;
+    color: #35495A;
+    text-align: center;
+    margin: 10px 0 22px 0;
+    padding: 0;
+}
+
+.bill_price sup {
+    font-size: 20px;
+    vertical-align: 37px;
+}
+
+.bill_price sub {
+    font-size: 16px;
+    vertical-align: -8px;
+}
+
+.bill ul {
+    padding: 0;
+    margin: 0;
+}
+
+.bill ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #888C94;
+    text-indent: 33px;
+    margin: 0 0 1px 0;
+    padding: 7px 0;
+}
+
+.bill ul li:before {
+    content: url(images/arrow.png);
+    margin: 0 15px 0 0;
+}
+
+.bill ul li:nth-child(3), ul li:nth-child(4) {
+    text-transform: none;
+}
+
+.bill ul li:nth-child(odd) {
+    background-color: #EDF5FD;
+}
+
+.bill ul li:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+.bill_link {
+    background-color: #EE8129;
+    border-bottom: 3px solid #B3560B;
+    border-radius: 5px;
+    text-align: center;
+    margin: 18px 4px 0 4px;
+    padding: 0;
+}
+
+.bill_link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    display: block;
+    margin: 0;
+    padding: 11px 0;
+    cursor: pointer;
+}
