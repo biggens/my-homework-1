@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.offers {
+    font-family: Roboto, Arial, sans-serif;
+    background-color: gold;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 25px;
+    height: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+}
+
+.offers h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
