@@ -2,16 +2,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .offers {
     font-family: Roboto, Arial, sans-serif;
-    background-color: gold;
+    /*background-color: gold;*/
     max-width: 1000px;
     margin: 50px auto;
     padding: 25px;
     height: 500px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .offers h1 {
@@ -19,4 +20,99 @@ body {
     padding: 0;
     text-align: center;
     text-transform: uppercase;
+}
+
+/* Центральный счет */
+
+.offers_center {
+    background-color: #fff;
+    border: 4px solid #EE8129;
+    border-radius: 4px;
+    max-width: 288px;
+}
+
+.offers_center h2 {
+    margin: 0;
+    padding-top: 22px;
+    height: 51px;
+    background-color: #EE8129;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.offers_name {
+    margin: 18px 0 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #3F4042;
+    text-align: center;
+
+}
+
+.offers_price {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 70px;
+    color: #35495A;
+    text-align: center;
+}
+
+.offers_price sup {
+    font-size: 20px;
+    vertical-align: 39px;
+}
+
+.offers_price sub {
+    font-size: 16px;
+    /*vertical-align: -8px;*/
+    position: relative;
+    top: -6px;
+    left: -3px;
+}
+
+.offers_list {
+    margin: 21px 15px 0 14px;
+    padding: 0;
+}
+
+.offers_list li {
+    background-image: url("images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 32px 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-indent: 62px;
+    color: #888C94;
+    margin: 0 0 1px 0;
+    padding: 7px 0 8px 0;
+}
+
+.offers_list li:nth-child(3), ul li:nth-child(4) {
+    text-transform: none;
+}
+
+.offers_list li:nth-child(odd) {
+    background-color: #EDF5FD;
+}
+
+.offers_list li:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+.offers_button {
+    display: block;
+    background-color: #EE8129;
+    margin: 15px 18px 30px 18px;
+    padding: 11px 0;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border-bottom: 3px solid #B3560B;
+    border-radius: 5px;
 }
