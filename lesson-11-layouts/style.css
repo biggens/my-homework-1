@@ -126,7 +126,7 @@ body {
 .offer_right .offers_button {
     background-color: #2F70A8;
     border-bottom: 3px solid #13426B;
-    margin: 14px 17px 30px 20px;
+    margin: 14px 17px 21px 20px;
     padding: 11px 0 10px 0;
 }
 
@@ -137,8 +137,11 @@ body {
     border: 4px solid #EE8129;
     border-radius: 4px;
     max-width: 288px;
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     position: relative;
-    top: -450px;
+    top: -441px;
     left: 290px;
     z-index: 1;
 }
@@ -160,7 +163,7 @@ body {
 .offer_center .offers_button {
     background-color: #EE8129;
     border-bottom: 3px solid #B3560B;
-    margin: 15px 18px 41px 17px;
+    margin: 15px 18px 30px 17px;
     padding: 11px 0 10px 0;
 }
 
@@ -173,7 +176,7 @@ body {
     border-left: none;
     border-radius: 0 4px 4px 0;
     position: relative;
-    top: -917px;
+    top: -897px;
     left: 586px;
 }
 
