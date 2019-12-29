@@ -22,66 +22,6 @@ body {
     text-transform: uppercase;
 }
 
-/* левый счет*/
-
-.offers_left {
-    background-color: #fff;
-    border: 1px solid #EAEBED;
-    border-right: none;
-    border-radius: 4px 0 0 4px;
-    max-width: 289px;
-}
-
-.offers_left h2 {
-    margin: 0;
-    padding-top: 20px;
-    height: 41px;
-    background-color: #2BC2D5;
-    border: 1px solid #2BC2D5;
-    border-radius: 4px 0 0 0;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.offers_left .offers_list li {
-    text-transform: none;
-}
-
-.offers_left .offers_button {
-    background-color: #2F70A8;
-    border-bottom: 3px solid #13426B;
-    margin: 14px 17px 30px 20px;
-    padding: 11px 0 10px 0;
-    /*display: block;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    color: #fff;
-    border-radius: 5px;*/
-}
-
-/* Центральный счет */
-
-.offers_center {
-    background-color: #fff;
-    border: 4px solid #EE8129;
-    border-radius: 4px;
-    max-width: 288px;
-}
-
-.offers_center h2 {
-    margin: 0;
-    padding-top: 22px;
-    height: 51px;
-    background-color: #EE8129;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .offers_name {
     margin: 18px 0 10px 0;
     padding: 0;
@@ -130,10 +70,6 @@ body {
     padding: 7px 0 8px 0;
 }
 
-.offers_list li:nth-child(3), ul li:nth-child(4) {
-    text-transform: none;
-}
-
 .offers_list li:nth-child(odd) {
     background-color: #EDF5FD;
 }
@@ -143,18 +79,77 @@ body {
 }
 
 .offers_button {
-    display: block;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 5px;
+}
+
+/* левый счет*/
+
+.offer_left {
+    background-color: #fff;
+    border: 1px solid #EAEBED;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    max-width: 289px;
+}
+
+.offer_left h2 {
+    margin: 0;
+    padding-top: 20px;
+    height: 41px;
+    background-color: #2BC2D5;
+    border: 1px solid #2BC2D5;
+    border-radius: 4px 0 0 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.offer_left .offers_list li {
+    text-transform: none;
+}
+
+.offer_left .offers_button {
+    background-color: #2F70A8;
+    border-bottom: 3px solid #13426B;
+    margin: 14px 17px 30px 20px;
+    padding: 11px 0 10px 0;
+}
+
+/* Центральный счет */
+
+.offer_center {
+    background-color: #fff;
+    border: 4px solid #EE8129;
+    border-radius: 4px;
+    max-width: 288px;
+}
+
+.offer_center h2 {
+    margin: 0;
+    padding-top: 22px;
+    height: 51px;
     background-color: #EE8129;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.offer_center .offers_list li:nth-child(3), ul li:nth-child(4) {
+    text-transform: none;
+}
+
+.offer_center .offers_button {
+    background-color: #EE8129;
+    border-bottom: 3px solid #B3560B;
     margin: 15px 18px 30px 17px;
     padding: 11px 0 10px 0;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    color: #fff;
-    border-bottom: 3px solid #B3560B;
-    border-radius: 5px;
 }
 
 /* правый счет*/
