@@ -5,8 +5,12 @@ body {
 
 .offers {
     font-family: Roboto, Arial, sans-serif;
-    background-color: gold;
     max-width: 1000px;
+    height: 620px;
+    /*выставил высоту как просили, так как
+        ничего не мог придумать. Здесть float нет, clear не использовал.
+        Прочитал одно, что когда пользуешься position, то якобы он выпадает
+        с потока, в моем случае из offers.*/
     margin: 10px auto;
     padding: 25px;
     -webkit-box-sizing: border-box;
@@ -99,8 +103,6 @@ body {
     cursor: pointer;
 }
 
-/* левый счет*/
-
 .offer_left {
     background-color: #fff;
     border: 1px solid #EAEBED;
@@ -110,12 +112,9 @@ body {
     -moz-box-sizing: border-box;
     border-right: none;
     border-radius: 4px 0 0 4px;
-    /*margin: 0;
-    padding: 0;*/
     position: absolute;
     top: 136px;
     left: 62px;
-
 }
 
 .offers .offer_left h2 {
@@ -136,8 +135,6 @@ body {
     margin: 14px 17px 21px 20px;
     padding: 11px 0 10px 0;
 }
-
-/* Центральный счет */
 
 .offer_center {
     background-color: #fff;
@@ -179,8 +176,6 @@ body {
     padding: 11px 0 10px 0;
 }
 
-/* правый счет*/
-
 .offer_right {
     background-color: #fff;
     border: 1px solid #EAEBED;
@@ -198,10 +193,3 @@ body {
     border: 1px solid #00B89A;
     border-radius: 0 4px 0 0;
 }
-
-/*
-.offers_general_box {
-    !*border: 1px solid black;*!
-    margin: 0 auto;
-    padding-left: 35px;
-}*/
