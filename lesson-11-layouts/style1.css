@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.comments {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 150px 0 0 0;
+    padding: 48px 0 0 0;
+    height: 300px;
+    background-color: #000;
+    color: white;
+}
+
+.comments h1 {
+    margin: 0;
+    padding: 0;
+    color: #EE8129;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text {
+    color: #3170A8;
+    margin: 0;
+    padding: 0;
+    /*font-size: 46px;*/
+}
+
+.comments_window {
+    /*display: inline-block;*/
+    /*width: 1200px;*/
+}
+
+.comments_item {
+    margin: 0 0 0 15px;
+    background-color: white;
+    /*border: 50px solid;
+    border-color: transparent red transparent transparent;*/
+    width: 332px;
+    padding: 12px 15px 12px 15px;
+    /*height: 50px;*/
+    color: black;
+    position: relative;
+    display: inline-block;
+
+}
+
+.comments_item:after {
+    content: '';
+    position: absolute;
+    right: 420px; top: 45px;
+    border: 10px solid transparent;
+    border-right: 20px solid red;
+
+}
+
+.block {
+    background: green;
+    position: relative;
+    width: 100px; height: 50px;
+    margin-left: 50px;
+}
+.block::after {
+    content: '';
+    position: absolute;
+    right: 105px; top: 0;
+    border: 10px solid transparent;
+    border-right: 20px solid red;
+}
+
+.comments_img {
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    margin: 0 0 0 30px;
+    /*float: left;*/
+}
+
+.name_item {
+    border-bottom: 2px dotted black;
+    color: #809BC1;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+    /*line-height: 40px;*/
+    padding: 2px 0 8px 0;
+    margin: 0;
+    float: left;
+}
+
+.name_item:before {
+    content: "\002D";
+}
+
+.name_item:after {
+    content: "Customer";
+    margin-left: 178px;
+}
+
+.item_content {
+    color: #9F95A7;
+    font-size: 13px;
+    margin: 0;
+    padding: 7px 0 0 0;
+    line-height: 1.5;
+}
