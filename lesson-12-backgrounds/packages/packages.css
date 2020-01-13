@@ -1,0 +1,96 @@
+.packages {
+    background-image: url("../images/plans-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    width: 100%;
+    padding: 90px 0 35px 0;
+}
+
+.packages a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.packages_one {
+    background-color: rgba(178, 178, 176, 0.9);
+    border: 3px solid #866C6A;
+    width: 72%;
+    padding: 15px 20px 30px 30px;
+    border-left: none;
+    float: left;
+}
+
+.packages_one p {
+    text-align: right;
+}
+
+.packages_one p span {
+    background-color: #D33F30;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.packages_one h1 {
+    margin: 0;
+}
+
+.packages_content {
+    border: 2px solid #636361;
+    border-radius: 3px;
+    background-color: white;
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: #B5B5B5;
+}
+
+.packages_two {
+    background-color: rgba(178, 178, 176, 0.9);
+    border: 3px solid #866C6A;
+    width: 72%;
+    padding: 15px 30px 30px 30px;
+    margin: 30px 0 25px 0;
+    /*position: relative;*/
+    /*top: 15px;*/
+    /*right: 0;*/
+    /*margin-right: 0;*/
+    border-right: none;
+    text-align: right;
+    box-sizing: border-box;
+    float: right;
+}
+
+.packages_two .packages_content {
+    text-align: right;
+    margin-right: 0;
+}
+
+/*.clearing {
+    !*content: '';*!
+    !*display: block;*!
+    clear: both;
+}*/
+
+.packages_three {
+    background-color: rgba(148, 116, 111, 0.9);
+    border: 3px solid #866C6A;
+    width: 72%;
+    padding: 15px 20px 30px 30px;
+    border-left: none;
+    margin-top: 535px;
+}
+
+.packages_three h1 {
+    color: #F1E3E1;
+}
+
+.packages_three h2 {
+    color: #B7ACA4;
+}
