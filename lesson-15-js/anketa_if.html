@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>anketa_if</title>
+</head>
+<body>
+  <script>
+      var firstName = prompt('Ваше имя:', '');
+      var lastName = prompt('Ваша фамилия:', '');
+      var patronymic = prompt('Ваше отчество:', '');
+      var fullName = firstName + ' ' + lastName + ' ' + patronymic;
+      var age = prompt('Ваш возраст в годах:', 'Вводим только числовые значения');
+      var ageDays = age * 365;
+      var ageFuture = (+age + 5);
+      var gender = confirm('Ваш пол мужской?');
+      if (gender >= 1) {
+          gender = 'мужской'
+      } else if (gender <= 0) {
+          gender = 'женский'
+      }
+      var retired;
+      if (age >= 65 && gender >= 'мужской' /*почему порядок операндов имеет значение?*/) {
+          retired = '1на пенсии'
+      } else if (age < 65 && gender >= 'мужской') {
+          retired = '2не на пенсии'
+      } else if (gender >= 'женский' && age >= 60) {
+          retired = '3на пенсии'
+      } else if (gender >= 'женский' && age < 60) {
+          retired = '4не на пенсии'
+      }
+      alert('Ваше ФИО:' + ' ' + fullName +
+          '\n' + 'Ваш возраст в годах:' + ' ' + age +
+          '\n' + 'Ваш возраст в днях:' + ' ' + ageDays +
+          '\n' + 'Ваш возраст через 5 лет:' + ' ' + ageFuture +
+          '\n' + 'Ваш пол:' + ' ' + gender +
+          '\n' + 'Вы на пенсии:' + ' ' + retired)
+  </script>
+</body>
+</html>

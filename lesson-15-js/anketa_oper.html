@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>anketa_if</title>
+</head>
+<body>
+  <script>
+      var firstName = prompt('Ваше имя:', '');
+      var lastName = prompt('Ваша фамилия:', '');
+      var patronymic = prompt('Ваше отчество:', '');
+      var fullName = firstName + ' ' + lastName + ' ' + patronymic;
+      var age = prompt('Ваш возраст в годах:', 'Вводим только числовые значения');
+      var ageDays = age * 365;
+      var ageFuture = (+age + 5);
+      var gender = confirm('Ваш пол мужской?');
+      if (gender >= 1) {
+          gender = 'мужской'
+      } else if (gender <= 0) {
+          gender = 'женский'
+      }
+      var retired;
+      retired = (gender >= 'мужской' && age >= 65) ? '1на пенсии' :
+          (gender >= 'мужской' && age < 65) ? '2не на пенсии' :
+              (age >= 60 && gender >= 'женский') ? '3на пенсии' :
+                  (age < 60 && gender >= 'женский') ? '4не на пенсии' :
+                      '';
+      alert('Ваше ФИО:' + ' ' + fullName +
+          '\n' + 'Ваш возраст в годах:' + ' ' + age +
+          '\n' + 'Ваш возраст в днях:' + ' ' + ageDays +
+          '\n' + 'Ваш возраст через 5 лет:' + ' ' + ageFuture +
+          '\n' + 'Ваш пол:' + ' ' + gender +
+          '\n' + 'Вы на пенсии:' + ' ' + retired)
+  </script>
+</body>
+</html>
