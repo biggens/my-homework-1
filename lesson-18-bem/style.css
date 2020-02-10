@@ -1,0 +1,41 @@
+.menu {
+    border: 1px solid black;
+
+    background-color: #0F1E2C;
+
+    font-family: Oswald, sans-serif;
+    font-size: 1.5em;
+}
+
+.menu__list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__link {
+    padding: 0 0.5rem;
+
+    color: white;
+
+    text-decoration: none;
+    line-height: 3rem;
+
+    cursor: pointer;
+}
+
+.menu__item--right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu__link:hover {
+    color: red;
+}
